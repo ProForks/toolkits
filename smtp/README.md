@@ -6,8 +6,8 @@
     import (
         "log"
 
-        "github.com//ProForks/toolkits/smtp"
-    )
+        "github.com/ProForks/toolkits/smtp"
+    
 
     func main() {
         auth := smtp.LoginAuth("notify@a.com", "password","smtp.exmail.qq.com:25")
